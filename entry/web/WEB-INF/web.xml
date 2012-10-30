@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <description>Создает набор сессий, передаваемых вызванным приложениям. Для вызова приложения использует расшифровку пути запроса.</description>
+  <display-name>Модуль аутентификации</display-name>
+  <context-param>
+    <description>WURFL xml file location.</description>
+    <param-name>wurfl</param-name>
+    <param-value>/WEB-INF/wurfl.zip</param-value>
+  </context-param>
+  <context-param>
+    <description>WURFL patch files location. Comma-separated.</description>
+    <param-name>wurflPatch</param-name>
+    <param-value>/WEB-INF/web_browsers_patch.xml</param-value>
+  </context-param>
+  <session-config>
+    <session-timeout>21800</session-timeout>
+  </session-config>
+</web-app>

@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Built-By: Valentin Markovich (vmarkovich@gorillagroup.com), Gorilla Inc.
+Build-Jdk: 1.7.0_03
+Created-By: Maven Integration for Eclipse
+
