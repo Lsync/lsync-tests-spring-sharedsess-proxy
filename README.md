@@ -13,7 +13,7 @@ Lets assume we have N java web applications on the same server. In case we need 
 - let entryApp internally forward request to requestedApp
 - done.
  
-It doesn't mattes what kind of applications we have - all of them use shared sessions (and information in them) now.
+It doesn't matter what kind of applications we have - all of them use shared sessions (and information in them) now.
                                                     
 
 What should be configured
